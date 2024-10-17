@@ -1,0 +1,47 @@
+<!-- <app-masala-carousel> </app-masala-carousel> -->
+
+<div class="container">
+  <div *ngFor="let category of category3">
+  
+    <!-- <nav  class="nav aria-label">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a routerLink="/departmenthome/oil">Oils</a></li>
+        <li class="breadcrumb-item"><a routerLink="/departmenthome/millet">Millets / Grains</a></li>
+        <li class="breadcrumb-item active"><a routerLink="/departmenthome/masala">Masala</a></li>
+        <li class="breadcrumb-item"><a routerLink="/departmenthome/rice">Rice</a></li>
+        <li class="breadcrumb-item"><a routerLink="/departmenthome/personalCare" >Personal Care</a></li>
+        <li class="breadcrumb-item"><a routerLink="/departmenthome/homeHygiene">Home Hygiene</a></li>
+        <li class="breadcrumb-item"><a routerLink="/departmenthome/devotional">Devotional</a></li>        
+      </ol>
+    </nav> -->
+
+    <nav class="nav" aria-label="Product Categories">
+      <div class="nav nav-pills flex-column flex-sm-row" id="pills-tab" role="tablist">
+        <a class="nav-link " routerLink="/departmenthome/oil" role="tab">Oils</a>
+        <a class="nav-link" routerLink="/departmenthome/millet" role="tab">Millets | Grains</a>
+        <a class="nav-link active" routerLink="/departmenthome/masala" role="tab">Masala</a>
+        <a class="nav-link" routerLink="/departmenthome/rice" role="tab">Rice</a>
+        <a class="nav-link" routerLink="/departmenthome/personalCare" role="tab">Personal Care</a>
+        <a class="nav-link" routerLink="/departmenthome/homeHygiene" role="tab">Home Hygiene</a>
+        <a class="nav-link" routerLink="/departmenthome/devotional" role="tab">Devotional</a>
+      </div>
+    </nav>
+    
+
+    <!-- <div class="product-list">
+      <app-product-card *ngFor="let product of getProductsByCategory(category)" [product]="product"></app-product-card>
+      
+    </div>
+  </div>
+</div> -->
+
+<div class="row">
+  <div class="col-6 col-sm-6 col-md-3 col-lg-2" *ngFor="let product of getProductsByCategory(category)">
+    <div class="card shadow-lg">
+      <img [src]="product.imageUrl" class="card-img-top" alt="{{ product.name }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+      </div>
+    </div>
+  </div>
+</div>

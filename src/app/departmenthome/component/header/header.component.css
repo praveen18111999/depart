@@ -1,0 +1,113 @@
+/* General Styling for the Navbar */
+.navbar {
+  height: 80px;
+  padding: 10px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa; /* Soft light background */
+  position: fixed;
+  width: 100%;
+  z-index: 1030;
+}
+
+/* .active will have a blue background and white text */
+.nav-link.active {
+  color: #007bff; /* Blue background */
+  border-radius: 10px;
+  border-bottom: none; /* Remove any underline */
+}
+
+/* .active{background-color: #007bff;} */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40; /* Dark grey for text */
+  font-size: 19px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+  margin-bottom: 2px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #007bff; /* Brand blue color */
+}
+
+.navbar-nav {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  align-items: center;
+}
+
+.nav-link {
+  color: #343a40;
+  padding: 10px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  font-size: 19px;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Blue hover color */
+  border-bottom: 2px solid #007bff;
+}
+
+.navbar-collapse {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Search box */
+input[type="search"] {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+}
+
+/* Toggler button */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+/* Admin dropdown styling */
+.lock {
+  color: #007bff;
+}
+
+/* Adjustments for Mobile */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 9999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-nav {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .navbar-nav .nav-link {
+    color: #343a40;
+    padding: 15px;
+  }
+
+  .navbar-nav .nav-link:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+    border-bottom: none;
+  }
+}

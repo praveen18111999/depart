@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+#heading{color: #5e5390;
+  font-weight: bolder;}
+/* .address{
+  
+  margin-left: 3rem;
+} */
+
+html,
+body {
+  overflow-x: hidden;
+  /* Prevents horizontal scrolling */
+  height: 100%;
+  /* Ensures body takes the full height of the viewport */
+  width: 100%;
+  /* Ensures the width is fully utilized without overflow */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-size: cover;
+  /* Ensures background image covers the whole body */
+}
+
+.top {
+  color: #000;
+  margin-top: 80px;
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* White background with slight opacity for readability */
+  font-weight: bolder;
+}
+
+h2 {
+  color: #000;
+}
+
+.contact {
+  background-color: #352b58;
+  color: #fff;
+}
+/* .inline {
+  margin-left: 3rem;
+} */
+
+.bi-telephone-fill {
+  font-size: 1.7em;
+  color: #4CAF50;
+}
+
+.bi-envelope {
+  color: #D14836;
+  /* Gmail red */
+  font-size: 1.8em;
+}
+
+.contact-info-item {
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+
+.contact-info-icon {
+  display: flex;
+  font-size: 2.5em;
+  justify-content: space-around;
+}
+
+iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.facebook-icon {
+  color: #1877F2;
+}
+
+.align{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  border: 2px solid #000;
+
+}
+
+iframe{
+  height: 100%;
+  margin:auto;
+}
+
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 2em;
+  }
+
+  .contact-info {
+    margin-bottom: 20px;
+  }
+
+   .address{
+   
+    margin-left:5px ;
+  } 
+
+  .inline {
+    margin-left: 0;
+  }
+}  

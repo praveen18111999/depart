@@ -1,0 +1,97 @@
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+a {
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+nav{margin-top: 90px;}
+ 
+  .nav-link {
+    font-weight: bold; /* Makes font bolder */
+    color: #333333; /* Custom text color */
+    text-decoration: none;
+  }
+  
+  .nav-link a:hover {
+    color: #ff5722; /* Optional hover effect */
+  }
+  
+ 
+ 
+  nav{margin-bottom: 10px;
+ }
+ 
+  .nav-pills .nav-link {
+   border-radius: 5px; /* Rounded pills */
+   margin: 5px; /* Add some spacing */
+   padding: 10px 20px; /* Adjust padding for better look */
+ }
+ 
+ .nav-pills .nav-link.active {
+   background-color:#ff5722; /* Active background color */
+   color: #fff; /* Active text color */
+ }
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.card {
+  height: 340px;
+  border: 2px solid #ddd;
+  /* Optional: Card border */
+  border-radius: 8px;
+  /* Optional: Rounded corners */
+  margin-bottom: 15px;
+  /* Add margin to prevent cards from sticking together */
+}
+
+.card-img-top {
+  height: 200px;
+  /* Set a fixed height for images */
+  margin: auto;
+  padding: auto;
+  object-fit: cover;
+  /* Maintain aspect ratio */
+}
+
+.card-body {
+  display: flex;
+  /* Use flexbox for centering */
+  flex-direction: column;
+  /* Align items vertically */
+  align-items: center;
+  /* Center items horizontally */
+  justify-content: center;
+  /* Center items vertically */
+  height: 100%;
+  /* Ensure the body takes full height of the card */
+}
+
+.card-title {
+  text-align: center;
+  /* Center text within the card title */
+  margin: 10px 0;
+  /* Add some margin for spacing */
+}
+
+/* Additional Styles for Responsive Behavior */
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 250px;
+    /* Optional: Adjust image height for small screens */
+  }
+}

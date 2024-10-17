@@ -1,0 +1,101 @@
+body {
+	margin-top: 0px;
+  }
+  
+  .bg-light {
+	background-color: transparent !important;
+  }
+  
+  img {
+	opacity: 0.75; /* Slightly reduce opacity of images */
+  }
+  
+  .carousel-item {
+	margin-top: 80px;
+	height: 550px;
+	min-height: 300px;
+  }
+  
+  .carousel-caption {
+	
+	bottom: 20px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+	padding: 15px; /* Padding around the caption */
+	border-radius: 10px; /* Rounded corners for the caption box */
+	z-index: 10; /* Ensure caption stays above the image */
+	width: max-content;
+  }
+  
+  .carousel-caption h5 {
+	font-family: "Work Sans", sans-serif;
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	color: white; /* Text color set to white */
+  }
+  
+  .carousel-caption p {
+	font-family: "Work Sans", sans-serif;
+	width: 40%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	color: white; /* Text color set to white */
+  }
+  
+  .carousel-caption a {
+	font-family: "Work Sans", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: darkorange;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #000;
+	margin-top: 15px;
+	border-radius: 100px; /* Optional: rounded button */
+  }
+  
+  .w-100 {
+	height: 100vh;
+  }
+  
+  .navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+  }
+  
+  /* Media Query for Mobile View */
+  @media only screen and (max-width: 767px) {
+	.navbar-nav {
+	  text-align: center;
+	  background: rgba(0, 0, 0, 0.5);
+	}
+  
+	/* Adjusting carousel caption for mobile */
+	.carousel-caption {
+	  bottom: 100px; /* Adjust bottom spacing */
+	  width: 80%; /* Ensure caption doesn't exceed screen width */
+	  text-align: center;
+	  padding: 10px; /* Smaller padding for mobile */
+	}
+  
+	.carousel-caption h5 {
+	  font-size: 20px; /* Adjust the title font size */
+	  letter-spacing: 1px; /* Adjust letter spacing for better fit */
+	}
+  
+	.carousel-caption p {
+	  font-size: 16px; /* Reduce the font size */
+	  line-height: 1.5; /* Adjust line spacing */
+	}
+  
+	.carousel-caption a {
+	  padding: 8px 20px; /* Reduce button padding */
+	  font-size: 14px; /* Reduce button text size */
+	}
+  }
+  

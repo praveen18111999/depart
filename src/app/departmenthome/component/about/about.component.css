@@ -1,0 +1,14 @@
+.display-4 {
+    color: #5e5390;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.container {
+    margin-top: 5px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.lead {
+    font-family: "Work Sans", sans-serif;
+}

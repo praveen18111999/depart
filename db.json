@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "category": "masala",
+      "price": 100,
+      "description": "This is a description of Product 1",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRbdnij-8tYrrG2g88RH-9mDS8s-vLsRmbTlLsXedWXbyDhgGCmLxm0WJMmzte-eLpm5gilTydofLc121ZctslcvwMXq5uRAhFCmabUjdsF"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "category": "rice",
+      "price": 150,
+      "description": "This is a description of Product 2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-z0iMQUSgxd0u09nUGNycUaKRbtR2KOqUdw&s"
+    }
+  ],
+  "cartItemlist": []
+}
